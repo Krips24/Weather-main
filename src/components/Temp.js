@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import WeatherCard from "./WeatherCard";
 
 const Temp = () => {
-  const [searchValue, setSearchValue] = useState("agra");
+  const [searchValue, setSearchValue] = useState("bangalore");
   const [tempInfo, setTempInfo] = useState({});
 
   const getWeatherInfo = async () => {
